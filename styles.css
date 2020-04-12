@@ -1,0 +1,25 @@
+body {
+    background-color: #FFFC01;
+}
+/* ink blot cursor like https://codepen.io/mendieta/pen/WgvENJ */
+
+img {
+    max-width:100%;
+    height:auto;
+}
+
+h1 {
+    font-family: 'Amatic SC', cursive;
+    font-size: xx-large;
+}
+
+a {
+    font-family: 'Amatic SC', cursive;
+    font-size: larger;
+}
+
+p {
+    font-family: 'Sue Ellen Francisco', cursive;
+    font-size: x-large;
+}
+
