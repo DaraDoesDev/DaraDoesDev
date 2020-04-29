@@ -1,5 +1,6 @@
 body {
     background-color: #FFFC01;
+    cursor: ;
 }
 /* ink blot cursor like https://codepen.io/mendieta/pen/WgvENJ */
 
@@ -16,6 +17,7 @@ h1 {
 a {
     font-family: 'Amatic SC', cursive;
     font-size: larger;
+    color: #737373;
 }
 
 p {
@@ -23,9 +25,17 @@ p {
     font-size: x-large;
 }
 
+footer {
+    text-align: center;
+}
+
+svg {
+    color: linear-gradient(#a6a6a6, #737373);
+}
+
 .box{
     
-    border : 2px solid black;
+    border : 2px solid #A9A9A9;
     border-radius : 10px;
     width: 300px;
     padding: 40px;
@@ -33,7 +43,7 @@ p {
     top: 50%;
     left: 50%;
     transform: -50%, -50%;
-    background: #A6A6A6;
+    background-image: linear-gradient(#a6a6a6, #737373);
     text-align: center; 
 }
 
@@ -73,5 +83,5 @@ p {
 }
 
 .box input[type="submit"]:hover {
-    background: #FFD700;
+    background: #FFFC01;
 }
