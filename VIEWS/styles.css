@@ -1,0 +1,87 @@
+body {
+    background-color: #FFFC01;
+    cursor: ;
+}
+/* ink blot cursor like https://codepen.io/mendieta/pen/WgvENJ */
+
+img {
+    max-width:100%;
+    height:auto;
+}
+
+h1 {
+    font-family: 'Amatic SC', cursive;
+    font-size: xx-large;
+}
+
+a {
+    font-family: 'Amatic SC', cursive;
+    font-size: larger;
+    color: #737373;
+}
+
+p {
+    font-family: 'Sue Ellen Francisco', cursive;
+    font-size: x-large;
+}
+
+footer {
+    text-align: center;
+}
+
+svg {
+    color: linear-gradient(#a6a6a6, #737373);
+}
+
+.box{
+    
+    border : 2px solid #A9A9A9;
+    border-radius : 10px;
+    width: 300px;
+    padding: 40px;
+    /* position: absolute; */
+    top: 50%;
+    left: 50%;
+    transform: -50%, -50%;
+    background-image: linear-gradient(#a6a6a6, #737373);
+    text-align: center; 
+}
+
+.box input[type="text"], .box input[type="email"], .box textarea {
+    border : 0;
+    background : none;
+    display : block;
+    margin : 10px auto;
+    text-align : center;
+    border : 3px solid #FFFC01;
+    padding : 14px 10px;
+    width : 200px;
+    outline : none;
+    color :  black;
+    border-radius : 30px;
+    transition: 0.25s;
+}
+
+.box input[type="text"]:focus, .box input[type="email"]:focus, .box textarea:focus {
+    width : 260px;
+    border-color: #FFA500;
+}
+
+.box input[type="submit"]{
+    border : 0;
+    background : none;
+    display : block;
+    margin : 20px auto;
+    text-align : center;
+    border : 3px solid #FFFC01;
+    padding : 14px 40px;
+    outline : none;
+    color :  black;
+    border-radius : 30px;
+    transition : 0.25s;
+    cursor : pointer;
+}
+
+.box input[type="submit"]:hover {
+    background: #FFFC01;
+}
